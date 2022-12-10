@@ -1,16 +1,16 @@
 
-@import'./component/_navbar.css';
-@import'./layout/_grids.css';
-@import'./component/_cards.css';
-@import'./component/_inputs.css';
-@import'./component/_decorators.css';
-@import'./component/_buttons.css';
+@import'./component/navbar.css';
+@import'./layout/grids.css';
+@import'./component/cards.css';
+@import'./component/inputs.css';
+@import'./component/decorators.css';
+@import'./component/buttons.css';
 @import'./Texts/variable.css';
 @import'./Texts/texts.css';
-@import'./mediaqueries/_mediaquery-xl.css';
-@import'./mediaqueries/_mediaquery-lg.css';
-@import'./mediaqueries/_mediaquery-md.css';
-@import'./mediaqueries/_mediaquery-sm.css';
+@import'./mediaqueries/mediaquery-xl.css';
+@import'./mediaqueries/mediaquery-lg.css';
+@import'./mediaqueries/mediaquery-md.css';
+@import'./mediaqueries/mediaquery-sm.css';
 .h2 {
 
     font-size: 24px;
