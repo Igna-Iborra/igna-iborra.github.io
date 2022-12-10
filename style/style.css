@@ -1,0 +1,61 @@
+
+@import'./component/_navbar.css';
+@import'./layout/_grids.css';
+@import'./component/_cards.css';
+@import'./component/_inputs.css';
+@import'./component/_decorators.css';
+@import'./component/_buttons.css';
+@import'./Texts/variable.css';
+@import'./Texts/texts.css';
+@import'./mediaqueries/_mediaquery-xl.css';
+@import'./mediaqueries/_mediaquery-lg.css';
+@import'./mediaqueries/_mediaquery-md.css';
+@import'./mediaqueries/_mediaquery-sm.css';
+.h2 {
+
+    font-size: 24px;
+}
+body{
+    background: #b1db29;
+    background: linear-gradient(0deg, rgba(159,199,29,1) 2%, #ecffe8 5%);
+}
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #050404;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 12px; */
+    /* padding-right: 12px; */
+    max-width: 900px;
+    width: 100%;
+}
+
+section:not(#jumgotron) {
+    padding: var(--gap-5) 0;
+}
+
+.row-v-center{
+    display: block;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: var(--gap-1) 0;
+    background-color: (rgb(255, 255, 255, 0.1));
+}
+
+footer p {
+    color:white
+}
+
+footer p i{
+    color:white
+}
+

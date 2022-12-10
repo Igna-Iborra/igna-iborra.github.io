@@ -1,0 +1,39 @@
+.shape{
+    z-index: -2;
+    display: flex;
+    position: relative;
+}
+
+.shape img{
+    animation: morph 8s ease-in-out infinite;
+    filter: grayscale();
+
+    
+}
+
+.shape::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: linear-gradient(to top,rgba(176, 255, 58, 0.767) 0%, rgba(176, 255, 58, 0.103) 100%)/*rgba(176, 255, 58, 0.144)*/;
+    /* border-top: 140px solid rgb(255 255 255 / 0%); */
+    animation: morph 8s ease-in-out infinite;
+    z-index: -2;
+}
+@keyframes morph{
+    0% {
+        border-radius: 55% 45% 25% 65% / 70% 40% 80% 50% ;
+    }
+
+    50% {
+        border-radius: 25% 55% 65% 35% / 45% 55% 25% 55% ;
+    }
+
+    100% {
+        border-radius: 55% 35% 25% 65% / 70% 40% 80% 50% ;
+    }
+
+}

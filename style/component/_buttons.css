@@ -1,0 +1,32 @@
+button{
+    width: fit-content;
+}
+.btn {
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    background: #c2f124;
+    background: linear-gradient(325deg, #D7F76F 35%, #9FC71D 100%);
+    color: rgb(0, 0, 0);
+    transition: 300ms ease-in-out all;
+}
+.tn.btn-icon{
+    font-size: 2rem;
+    line-height: 2rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.btn.block{
+    width: 100%;
+}
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 8px 4px #9FC71D;
+
+}
+
+::before {}
