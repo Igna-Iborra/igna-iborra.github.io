@@ -54,3 +54,11 @@
     height: fit-content;
     place-self: center;
 }
+
+@media (max-width: 768px) {
+    div picture .sharpe{
+        height: 200px;
+        width: 300px;
+        margin: 0rem;
+    }
+}
