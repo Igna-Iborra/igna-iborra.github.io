@@ -60,6 +60,7 @@ nav ul.nav-list-mobile{
         z-index: -1;
         border-top: 10px;
         transition: 0.3s all ease;
+        border-radius: 0px 10px 0px 10px ;
     }
     ul.nav-list-desktop.show{
         transform: translateY(0);
@@ -67,6 +68,10 @@ nav ul.nav-list-mobile{
 
     nav ul.nav-list-mobile{
         display: flex;
+    }
+
+    section div div.My {
+        margin: 0rem 0rem 0rem 0rem;
     }
 }
 

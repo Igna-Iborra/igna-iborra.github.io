@@ -11,7 +11,6 @@
 @import'./mediaqueries/mediaquery-lg.css';
 @import'./mediaqueries/mediaquery-md.css';
 @import'./mediaqueries/mediaquery-sm.css';
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap');
 
 .h2 {
 
@@ -22,7 +21,7 @@ body{
     background: linear-gradient(0deg, rgba(159,199,29,1) 2%, #ecffe8 5%);
 }
 * {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #050404;
 }
 .container {
